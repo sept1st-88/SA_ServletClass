@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* common */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+#wrap {
+	margin: 0px auto;
+}
+#formWrap {
+	width: 250px;
+	margin: 100px auto;
+}
+#pageTitle {
+	margin: 100px 0px 40px;
+	font-size:30px;
+	font-family: "Times New Roman", Times, serif;
+}
+.textWrap {
+	text-overflow: ellipsis;
+}
+
+/* form */
+#commonForm label {
+	display: block;
+	font-size: 13px;
+	padding:15px 0px 3px;
+}
+.inputText, .fixedValue {
+	width: 100%;
+	height: 30px;
+	padding: 0px 8px;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	font-size: 13px;
+}
+.inputText {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	outline: none;
+}
+.fixedValue {
+	line-height: 30px;
+	font-weight: bold;
+}
+#btnsWrap {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 0;
+}
+.btns {
+	display: inline-block;
+	width: 80px;
+	line-height: 30px;
+	background-color: #000;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	border: 0;
+	cursor: pointer;
+}
+.btns:nth-child(2) {
+	margin: 0 5px;
+}
