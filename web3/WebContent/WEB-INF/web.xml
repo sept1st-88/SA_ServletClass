@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+	http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>web3</display-name>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>HelloWorld</servlet-name>
+		<servlet-class>tg.servlets.HelloWorld</servlet-class>
+	</servlet>
+	
+	<!-- 브라우저 주소를 불러옴 -->
+	<servlet-mapping>
+		<!-- 서블릿 네임은 위에와 동일해야한다 -->
+		<servlet-name>HelloWorld</servlet-name>
+		<url-pattern>/HelloWorld</url-pattern>
+	</servlet-mapping>
+
+</web-app>
