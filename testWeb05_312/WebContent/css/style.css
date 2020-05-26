@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* common */
+a {
+	color: #000;
+	text-decoration: none;
+}
+#pageTitle {
+	font-size: 25px;
+}
